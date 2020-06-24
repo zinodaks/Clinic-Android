@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+    <LinearLayout
+        android:id="@+id/m_date_display"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/display_date_border">
+
+        <TextView
+            android:id="@+id/m_month"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            android:text="Nov."
+            android:textStyle="italic"/>
+
+        <TextView
+            android:id="@+id/m_day"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/month"
+            android:text="17"
+            android:textColor="@color/colorAccent"
+            android:textSize="34sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/m_year"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/day"
+            android:textColor="@color/colorPrimary"
+            android:layout_gravity="center_horizontal"
+            android:text="2019" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/kkk"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/m_date_display"
+        android:layout_marginLeft="20dp"
+        android:orientation="vertical">
+    <TextView
+        android:id="@+id/m_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="John Doe" />
+
+    <TextView
+        android:id="@+id/m_symptoms_display"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="I have a fever and a think I have the flu and i feel very sick" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/m_closeX"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:textSize="18sp"
+        android:text="x"
+        />
+
+    <Button
+        android:id="@+id/consult"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/m_closeX"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/consultation_icon"
+        />
+
+
+</RelativeLayout>

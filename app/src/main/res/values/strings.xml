@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Infinity Center</string>
+    <string name="httpURL">http://172.20.10.104/Clinic/</string>
+    <string name="title_activity_registration">Registration</string>
+    <string name="title_activity_patient">Patient</string>
+    <string name="appo_title">Appointments</string>
+    <string name="cons_title">Consultations</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_manager">ManagerActivity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+</resources>
